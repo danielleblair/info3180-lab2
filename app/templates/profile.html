@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<div class="profile-content">
+    <section  class="profile-heading">
+        <img src="{{ url_for('static', filename='woman.png') }}" alt="Woman Avatar">
+        <h5>Danielle Blair</h5>
+        <p>@danblair</p>
+        <p>St. Catherine, Jamaica</p>
+        <p>{{date}}</p>
+    </section>
+    
+    <section  class="profile-after">
+        <div class="profile-paragraph">
+            <p>I am a Web Development learner at University.</p>
+            <p>Contact me for any inquiries.</p> 
+        </div>
+         
+        
+        <div class="profile-data">
+            <div class="posts">
+                <b>10</b>
+                <p>Posts</p>
+            </div>
+        
+            <div class="following">
+                <b>150</b>
+                <p>Following</p>
+            </div>
+        
+            <div class="followers">
+                <b>500</b>
+                <p>Followers</p>
+            </div>
+        </div>
+    
+        <button>Follow</button>
+        
+    </section>
+</div>
+
+
+
+
+
+{% endblock %}

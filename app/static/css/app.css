@@ -1,3 +1,65 @@
 body {
     padding-top: 5rem;
+    align-items: center;
+    
+    display: block;
+    justify-content: center;
+}
+
+p{
+    font-size: 15px;
+}
+
+.profile-content{
+    border-radius: 15px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    justify-content: center;
+}
+
+section{
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.profile-heading{
+    background-color: aquamarine;   
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.profile-after{    
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.profile-data{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-data div{
+    padding:10px;
+}
+
+img{
+    height: 120px;
+    width: 120px;
+    margin: 20px;
+}
+
+button{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    background-color: green;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
 }
